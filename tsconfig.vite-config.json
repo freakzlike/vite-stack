@@ -1,6 +1,10 @@
 {
   "extends": "@vue/tsconfig/tsconfig.node.json",
-  "include": ["vite.config.*"],
+  "include": [
+    "vite.config.*",
+    "git-revision-plugin.*",
+    "filename-plugin.*"
+  ],
   "compilerOptions": {
     "composite": true,
     "types": ["node", "vitest"]
